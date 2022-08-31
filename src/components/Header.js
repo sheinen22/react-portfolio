@@ -1,8 +1,8 @@
-// import React from 'react';
-// import { Link } from 'react-router-dom';
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-// function Header () {
-//     'display header here'
-// }
+function Header () {
+    'display header here'
+}
 
-// export default Header;
+export default Header;
