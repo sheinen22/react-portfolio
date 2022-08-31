@@ -13,9 +13,9 @@ function AboutMe () {
                     <div className="col-4">
                   <img src={me} className="card-img-top" alt="..."/>
                   <div className="card-body">
-                    <h3 className="card-title text-center">Robert Pape</h3>
+                    <h3 className="card-title text-center">Stephen Heinen</h3>
                     <p className="card-text text-center">Full-Stack Web Developer</p>
-                    <p className="card-text text-center"><small className="text-white-30">JavaScript / React / HTML / CSS / MERN / APIs / NodeJS / OOP / PWA / Express / SQL / No-SQL / ORM / MVC</small></p>
+                    <p className="card-text text-center"><small className="text-white-30">JavaScript | React | HTML | CSS | APIs | NodeJS | Express | SQL</small></p>
                   </div>
                 </div>
                 
