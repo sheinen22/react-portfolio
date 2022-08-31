@@ -1,32 +1,30 @@
 import React from 'react';
-import me from '../images/headshot2.JPG';
-import rig from '../images/oilrig.webp'
+import Me from '../images/headshot2.JPG';
+import park from '../images/globelife.jpg'
+
 
 function AboutMe () {
     return (
         <section className="container">
           <div className="row align-items-center">
 
-                <div className="card" style="width: 100%">
+                <div className="card" style={{width: "100%", marginTop: "2vh", backgroundColor: ''}}>
                   <div className="row">
 
-                    <div className="col-4">
-                  <img src={me} className="card-img-top" alt="..."/>
-                  <div className="card-body">
-                    <h3 className="card-title text-center">Stephen Heinen</h3>
-                    <p className="card-text text-center">Full-Stack Web Developer</p>
-                    <p className="card-text text-center"><small className="text-white-30">JavaScript | React | HTML | CSS | APIs | NodeJS | Express | SQL</small></p>
-                  </div>
+                    <div className="col-4" style={{marginTop: "8vh", marginBottom: "8vh"}}>
+                  <img src={Me} className="card-img-top" alt="..."/>
                 </div>
                 
                 <div className="col-8">
-                <div className="card-body">
-                  <h5 className="card-header text-center" id="aboutMe">About Me</h5>
-                  <div className="card-body text-center">
-                    <p className="card-text lh-lg">Hello! My name is Stephen Heinen. I am from San Antonio, Texas, and I am a recent graduate from the University of Arizona Full Stack Bootcamp.  I have a B.S. in Criminal Justice from Texas State University, and have spent the last five years in the oil and gas industry. I'm looking forward to the change in pace and the new challenges ahead!</p>
-                    <img src={rig} className="card-img-top align-items-center" alt="..." style="width: 50%"/>
-                  </div>
+                  <div className="card-body" style={{backgroundColor: "black", borderRadius: "50px", color: "white", marginTop: "8vh"}}>
+                    <h5 className="card-header text-center">About Me</h5>
+                    <div className="card-body text-center">
+                      <p>Hi, my name is Stephen Heinen.  I am originally from Fort Worth, Texas, but recently moved down to San Antonio. I graduated from Texas State University with a B.S. in Criminal Justice, and I've spent the last five years in the oil and gas industry as a Regional Safety Manager. My two biggest hobbies are spots, especially baseball, and working out. I just graduated from the Full-Stack Web Development Bootcamp hosted by the University of Arizona.  I am excited for the change of pace, and eager to face the upcoming challenges!</p>
+                    </div>
                 </div>
+                  <div className="col 8">
+                    <img style={{maxWidth: "91vh", borderRadius: "50px", marginTop: "2vh"}} src={park}></img>
+                  </div>
               </div>
              </div>
 
